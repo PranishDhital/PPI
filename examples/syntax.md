@@ -1,4 +1,4 @@
-# PDLex Syntax Reference
+#  PPI Syntax Reference
 
 This file documents the keywords and statement forms currently supported by the language.
 
@@ -26,7 +26,7 @@ Declare a variable with a type, a name, and an optional initializer:
 int count;
 int total = 10;
 double ratio = 2.5;
-string name = "PDLex";
+string name = "PPI";
 bool ready = true;
 ```
 
