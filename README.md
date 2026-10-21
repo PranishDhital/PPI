@@ -1,6 +1,6 @@
-# PDLex
+# PPI
 
-PDLex is a small C++20 prototype for a simple `.pd` language. It started as a lexer and grew into a tiny parser/interpreter that can read a file, build a lightweight AST, and execute the supported statements.
+PPI is a small C++20 prototype for a simple `.pd` language. It started as a lexer and grew into a tiny parser/interpreter that can read a file, build a lightweight AST, and execute the supported statements.
 
 This repository is licensed under the Apache License 2.0. See [`LICENSE`](LICENSE) for the full text.
 
@@ -8,7 +8,7 @@ For the language reference, see [`examples/syntax.md`](examples/syntax.md).
 
 ## Overview
 
-PDLex currently supports:
+PPI currently supports:
 
 - Lexing identifiers, numbers, strings, booleans, operators, and punctuation
 - Single-line `//` comments and block `/* ... */` comments
@@ -49,7 +49,7 @@ Declare variables with a type and name, with or without an initializer:
 int count;
 int total = 10;
 double ratio = 2.5;
-string name = "PDLex";
+string name = "PPI";
 bool ready = true;
 ```
 
@@ -298,13 +298,13 @@ The zip folder in the release contains a .vsix file which contains all the thing
 
 ### Installation steps for .vsix :
 
-The file name is `pdlex-0.0.1.vsix` 
+The file name is `PPI-0.0.1.vsix` 
 - Step 1: `ctrl + shift + x` , to open vscode extension market
 - Step 2: At the top right of the extension market there is a `...` press it 
 - Step 3: Select Install from VSIX
 
-- step 4: find and click the `pdlex-0.0.1.vsix`
-- step 5: To find the extension in your extension market search `pdlex` , after installation
+- step 4: find and click the `PPI-0.0.1.vsix`
+- step 5: To find the extension in your extension market search `PPI` , after installation
 
 ## Status
 
